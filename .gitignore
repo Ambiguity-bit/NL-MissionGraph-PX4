@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+*.env
+*.venv
+
+# ROS
+devel/
+build/
+install/
+log/
+msg_gen/
+srv_gen/
+
+# PX4
+sitl-build/
+build/
+tmp/
+*.autosave
+*.bag
+*.plan
+
+# Logs
+logs/
+*.log
+*.csv
+*.jsonl
+
+# System
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Model
+.ollama/
+models/
+*.bin
+*.model
